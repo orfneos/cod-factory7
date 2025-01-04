@@ -2,7 +2,7 @@ package gr.aueb.cf.ch8;
 
 import java.io.IOException;
 
-public class ExceptionsTypes {
+public class exceptionsTypes {
 
     public static void main(String[] args) {
 

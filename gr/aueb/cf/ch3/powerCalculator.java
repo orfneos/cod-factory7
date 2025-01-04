@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * Υπολογίζει το b^power
  */
-public class PowerCalculator {
+public class powerCalculator {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

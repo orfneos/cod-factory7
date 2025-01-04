@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class MultipleExceptionApp {
+public class multipleExceptionApp {
 
     public static void main(String[] args) throws IOException {
         File file = new File("C:/tmp/file.txt");
