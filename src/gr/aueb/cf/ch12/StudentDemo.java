@@ -4,8 +4,8 @@ package src.gr.aueb.cf.ch12;
 public class StudentDemo {
 
     public static void main(String[] args) {
-        Student student = new Student();
-        Student bob = new Student(2, "Bob", "D.");
+        Student student = new Student();      //Invoke Default Constructor
+        Student bob = new Student(2, "Bob", "D.");     //Invoke Overloaded Constructor and populate instance
 
         bob.setLastname("Dylan");
 
@@ -20,6 +20,8 @@ public class StudentDemo {
         System.out.println("Id: " + bob.getId());
         System.out.println("Firstname: " + bob.getFirstname());
         System.out.println("Lastname: " + bob.getLastname());
+
+        System.out.println("Student instances' count: " + Student.getStudentsCount());
 
 
 
