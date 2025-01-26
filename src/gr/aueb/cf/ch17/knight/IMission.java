@@ -1,7 +1,8 @@
 package src.gr.aueb.cf.ch17.knight;
 
-@FunctionalInterface
-public interface IMission {
 
+public interface IMission {
+    MissionStatus getStatus();
+    void setStatus(MissionStatus missionStatus);
     void embark();
 }
